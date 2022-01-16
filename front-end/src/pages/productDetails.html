@@ -24,10 +24,36 @@
             </nav>
             <nav id="navbar">
                 <ul>
-                    <li>Ubicación</li>
-                    <li>Carrito</li>
+                    <li>
+                        <a href="#">
+                            <img
+                              src="../assets/icons/users.svg"
+                              alt="_blank"
+                            />
+                          </a>
+                    </li>
+                    <li class="carrito">
+                        <a href="#">
+                          <img
+                            src="../assets/icons/Vector.svg"
+                            alt="_blank"
+                          />
+                          <span id="number">0</span>
+                        </a>
+                      </li>
                 </ul>
             </nav>
+            <section id="cart-box">
+                <h3>Tu carrito</h3>
+        
+                <span class="close"></span>
+        
+                <h3 id="total">Total: <span>$0</span></h3>
+        
+                <div id="cart-container"></div>
+        
+                <button id="pay-btn">Proceder al pago</button>
+              </section>
         </header>
 
         <main class="main">
@@ -60,5 +86,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
+    <script src="../js/utilities.js"></script>
+    <script src="../js/products.js"></script>
+    <script src="../js/product.js"></script>
+    <script src="../js/catalog.js"></script>
+    <script src="../js/cart.js"></script>
 </body>
 </html>
