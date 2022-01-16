@@ -7,7 +7,7 @@ const endpoint="http://localhost:4000/productos/"
 
 
 document.addEventListener("DOMContentLoaded", async () =>{
-    const data = getData(endpoint)
-    showData(data, element)
+    const data = await getData(endpoint)
+    await showData(data, element)
     console.log(data);
 })
