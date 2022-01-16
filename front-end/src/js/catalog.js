@@ -1,7 +1,4 @@
 
-const sortPriceAsc = (products) => products.sort((a, b) => a.price - b.price);
-
-const sortPriceDesc = (products) => products.sort((a, b) => b.price - a.price);
 
 function sortNameAsc(products) {
   return products.sort((a, b) => {
@@ -36,7 +33,7 @@ function sort(sortFunc) {
   });
 }
 
-const catalogGrid = document.querySelector(".grid");
+const catalogGrid = document.querySelector("#catalogo");
 const radioPriceAsc = document.querySelector("#sort-price-asc");
 const radioPriceDesc = document.querySelector("#sort-price-desc");
 const radioNameAsc = document.querySelector("#sort-name-asc");
@@ -48,20 +45,4 @@ products.forEach((product) => {
   product.createCard();
 
   catalogGrid.append(product.htmlCard);
-});
-
-radioPriceAsc.addEventListener("click", () => {
-  sort(sortPriceAsc);
-});
-
-radioPriceDesc.addEventListener("click", () => {
-  sort(sortPriceDesc);
-});
-
-radioNameAsc.addEventListener("click", () => {
-  sort(sortNameAsc);
-});
-
-radioNameDesc.addEventListener("click", () => {
-  sort(sortNameDesc);
 });

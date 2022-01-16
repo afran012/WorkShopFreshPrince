@@ -12,7 +12,7 @@ class Product {
     item.classList.add("item");
 
     const img = document.createElement("img");
-    img.src = this.imgSrc;
+    //img.src = this.imgSrc;
     img.setAttribute("alt", "Cart item");
 
     const container = document.createElement("div");
@@ -38,7 +38,7 @@ class Product {
     card.classList.add("card");
 
     const img = document.createElement("img");
-    img.src = this.imgSrc;
+    //img.src = this.imgSrc;
     img.setAttribute("alt", this.product);
 
     const name = createTextElement("h3", this.product);

@@ -1,4 +1,5 @@
-main {
+#mainIndex {
+  z-index: 1;
   h2 {
     font-size: 3rem;
     font-weight: 900;
@@ -11,8 +12,7 @@ main {
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+
   line-height: 35px;
 
   .card {
