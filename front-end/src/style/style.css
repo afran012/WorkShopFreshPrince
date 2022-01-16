@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --color-primary: #fee0c7;
+  --color-secundary: #A786DF;
+  --color-font-primary: #FC462D;
+  --font-family: "Nunito";
+  --color-yellow: #c4d791;
+  --color-green: #85d185;
+  --color-gray: #535353;
+  --color-tertiary: #D9D4E7;
+  --color-black: #0E172C;
+  --bs-secondary: #0E172C;
+}
+
+.body1Regular {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: var(--color-gray);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+.body {
+  width: 100%;
+  background-color: #FF906D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-bg {
+  width: 90%;
+  background-color: white;
+}
+
+.header {
+  width: 100%;
+  height: 88px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: scroll;
+}
+
+#navbar ul, #navbar1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#logo h1 {
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-size: 22pt;
+  color: var(--color-font-primary);
+}
+
+#navbar ul li, #navbar1 ul li {
+  color: white;
+  margin: 10px;
+}
+
+.grid-elementos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: scroll;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 50% 40%;
+      grid-template-columns: 10% 50% 40%;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+}
+
+.detailsAside {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+  width: 100%;
+  height: 100%;
+}
+
+.detailsImg {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.detailsAside .detailsNav li img {
+  width: 30px;
+  height: 30px;
+}
+
+.detailsImg img {
+  width: 30px;
+  height: 30px;
+}
+/*# sourceMappingURL=style.css.map */
