@@ -1,0 +1,85 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Limon con semilla",
+            "descuento": true,
+            "porcentajedes": 32,
+            "precio": 26.82,
+            "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Limon con semilla",
+            "descuento": true,
+            "porcentajedes": 32,
+            "precio": 26.82,
+            "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Limon con semilla",
+            "descuento": true,
+            "porcentajedes": 32,
+            "precio": 26.82,
+            "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Limon con semilla",
+            "descuento": true,
+            "porcentajedes": 32,
+            "precio": 26.82,
+            "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Limon con semilla",
+            "descuento": true,
+            "porcentajedes": 32,
+            "precio": 26.82,
+            "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg"
+        },
+        {
+            "id": 6,
+            "nombre": "Limon con semilla",
+            "descuento": true,
+            "porcentajedes": 32,
+            "precio": 26.82,
+            "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg"
+        },
+        {
+            "id": 7,
+            "nombre": "Limon con semilla",
+            "descuento": true,
+            "porcentajedes": 32,
+            "precio": 26.82,
+            "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg"
+        },
+        {
+            "id": 8,
+            "nombre": "Limon con semilla",
+            "descuento": true,
+            "porcentajedes": 32,
+            "precio": 26.82,
+            "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg"
+        },
+        {
+            "id": 9,
+            "nombre": "Limon con semilla",
+            "descuento": true,
+            "porcentajedes": 32,
+            "precio": 26.82,
+            "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg"
+        },
+        {
+            "id": 10,
+            "nombre": "Limon con semilla",
+            "descuento": true,
+            "porcentajedes": 32,
+            "precio": 26.82,
+            "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg"
+        }
+        
+    ]
+}
